@@ -30,6 +30,10 @@
     font-size: 14px;
     color:#757575;
 }
+.text-center{
+    text-align: center;
+}
+/*header*/
 .header{
     background-image: url("../images/developer.png"),url('../images/header_bg.png');
     background-repeat: no-repeat;
@@ -39,7 +43,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 40px 184px 40px 182px;
+    margin: 0px 184px 40px 182px;
 }
 .nav-title{
     font-weight: 800;
@@ -83,12 +87,15 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /*about styles*/
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 .about-items{
     display: flex;
@@ -96,4 +103,14 @@ main{
 }
 .item-description{
     font-weight: bold;
+}
+/* skills  */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.07);
+    border-radius: 4px;
 }
