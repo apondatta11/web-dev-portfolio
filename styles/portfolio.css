@@ -5,6 +5,9 @@
   font-style: normal;
 }
 /*shared style*/
+.secondary-bg{
+    background-color: #fff8f3;
+}
 .text-primary{
     color:#FD6E0A ;
 }
@@ -17,6 +20,15 @@
     font-weight: bold;
     padding: 14px 26px;
     border-radius: 3px;
+}
+.section-title{
+    font-size: 28px;
+    font-weight: 35px;
+    color: #181818;
+}
+.section-description{
+    font-size: 14px;
+    color:#757575;
 }
 .header{
     background-image: url("../images/developer.png"),url('../images/header_bg.png');
@@ -65,4 +77,23 @@ nav li a{
 }
 .banner-profile-pic{
     width: 580px;
+}
+/*main styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*about styles*/
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
 }
